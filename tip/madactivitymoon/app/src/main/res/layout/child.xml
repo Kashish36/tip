@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary90"
+    tools:context=".ChildActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="318dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="626dp"
+        android:text="Salary discussion"
+        android:textColor="#020617"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/confirmationtext"
+        android:layout_width="291dp"
+        android:layout_height="156dp"
+        android:text="Your Reservation is confirmed. "
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <TextView
+        android:id="@+id/dateandtime"
+        android:layout_width="179dp"
+        android:layout_height="32dp"
+        android:text="TextView"
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationtext"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="36dp"
+        android:text="Webview"
+        android:textColor="#E8E4E4"
+        android:textColorHighlight="#EDE8E8"
+        android:textColorHint="#F4EFEF"
+        android:textColorLink="#E8E3E3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationtext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
